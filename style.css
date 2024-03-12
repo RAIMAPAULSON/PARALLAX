@@ -1,0 +1,350 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/moon1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  font-family: "Train One", system-ui;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 80px;
+  z-index: 1;
+}
+
+.foreground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/tree2.png');
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 2;
+}
+
+.pos {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  /* border: 2px solid black; */
+  background-color: white;
+  padding: 30px 0px;
+}
+
+.pos .posright {
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 6px;
+  color: black;
+  border: 1px solid black;
+}
+
+.pos .posright:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.bg p {
+  font-size: 80px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.sentence {
+  font-family: "Playfair Display", serif;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  /* padding-left: 120px; */
+  font-size: 35px;
+  color: black;
+
+  text-align: justify;
+}
+
+.wrapper {
+  background-color: rgb(245, 242, 242);
+  background-attachment: fixed;
+
+}
+
+.bg1 {
+  background: url("https://cdn.pixabay.com/photo/2023/02/10/20/35/closeup-wave-7781606_1280.jpg") no-repeat;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  margin: 20px 0px;
+  width: 100%;
+
+}
+
+.bg1:hover {
+  opacity: 1;
+}
+
+.bg1p1 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  margin-top: 120px;
+  margin-left: 550px;
+  margin-right: 550px;
+  opacity: 1;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.bg2 {
+  background: url("https://cdn.pixabay.com/photo/2013/10/09/02/27/rocks-192988_1280.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 20px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 100%;
+}
+
+.bg2:hover {
+  opacity: 1;
+}
+
+.bg2p1 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  margin-top: 120px;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.bg3 {
+  background: url("https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+  height: 400px;
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.bg3:hover {
+  opacity: 1;
+}
+
+.bg3p1 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  margin-top: 120px;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding: 20px 30px 20px 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.olp1 {
+  padding-left: 30px;
+}
+
+.olp2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.ol3 {
+
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border: 2px solid white;
+}
+
+.ol3:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.text-overlay {
+  color: white;
+  /* optional: set text color */
+  padding: 10px;
+  /* optional: add padding */
+  font-size: 20px;
+  /* optional: set font size */
+}
+
+#img-slider {
+  background: url("https://wallpapers.com/images/hd/dark-animals-9syx082drq1lkwly.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar-nav .nav-link:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.imgshead {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 30px;
+}
+
+.sl p {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: rgb(19, 18, 18);
+}
+
+.footer p {
+  color: white;
+}
+
+.sl1:hover {
+  transform: scale(1.1);
+}
+
+.sl1 {
+  transition: 0.5s ease-in;
+}
+
+.sl2:hover {
+  transform: scale(1.1);
+}
+
+.sl2 {
+  transition: 0.5s ease-in;
+}
+
+.sl3:hover {
+  transform: scale(1.1);
+}
+
+.sl3 {
+  transition: 0.5s ease-in;
+}
+
+.sl4:hover {
+  transform: scale(1.1);
+}
+
+.sl4 {
+  transition: 0.5s ease-in;
+}
+
+.sl5:hover {
+  transform: scale(1.1);
+}
+
+.sl5 {
+  transition: 0.5s ease-in;
+}
+
+.sl6:hover {
+  transform: scale(1.1);
+}
+
+.sl6 {
+  transition: 0.5s ease-in;
+}
+
+@media (max-width: 759px) {
+  .pos {
+    font-size: 16px;
+  }
+
+  .sentence {
+    font-size: 20px;
+  }
+
+  .bg1p1 {
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 16px;
+  }
+
+  .bg2p1 {
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 16px;
+  }
+
+  .bg3p1 {
+    margin-left: 180px;
+    margin-right: 150px;
+    font-size: 16px;
+  }
+
+  .olp1 {
+    padding-left: 30px;
+  }
+
+  .olp2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .imgshead {
+    font-size: 24px;
+  }
+}
